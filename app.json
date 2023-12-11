@@ -1,6 +1,7 @@
 {
   "expo": {
     "scheme": "acme",
+    "icon": "./assets/favicon.png",
     "web": {
       "bundler": "metro"
     },
@@ -8,6 +9,24 @@
       "expo-router"
     ],
     "name": "job-finder",
-    "slug": "job-finder"
+    "slug": "job-finder",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "35d56ad7-7361-4479-b784-b435f53d5846"
+      }
+    },
+    "android": {
+      "package": "com.abbasnaim21.jobfinder"
+    },
+    "runtimeVersion": {
+      "policy": "nativeVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/35d56ad7-7361-4479-b784-b435f53d5846"
+    },
+    "ios": {}
   }
 }
